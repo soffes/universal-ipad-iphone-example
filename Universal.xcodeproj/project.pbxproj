@@ -22,6 +22,8 @@
 		B21836641176AC9900D72061 /* TestViewController_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836581176AC9900D72061 /* TestViewController_Shared.m */; };
 		B272832711779005003052E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B272832611779005003052E0 /* Icon.png */; };
 		B272832911779009003052E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B272832811779009003052E0 /* Default.png */; };
+		B27283621177C36D003052E0 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = B27283601177C36D003052E0 /* Default-Landscape.png */; };
+		B27283631177C36D003052E0 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = B27283611177C36D003052E0 /* Default-Portrait.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		B218365A1176AC9900D72061 /* Universal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universal_Prefix.pch; sourceTree = "<group>"; };
 		B272832611779005003052E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B272832811779009003052E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B27283601177C36D003052E0 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		B27283611177C36D003052E0 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				B21836491176AC9900D72061 /* TestViewController_Pad.h */,
 				B218364A1176AC9900D72061 /* TestViewController_Pad.m */,
 				B21836481176AC9900D72061 /* MainWindow_Pad.xib */,
+				B27283601177C36D003052E0 /* Default-Landscape.png */,
+				B27283611177C36D003052E0 /* Default-Portrait.png */,
 			);
 			path = iPad;
 			sourceTree = "<group>";
@@ -111,12 +117,12 @@
 		B218364B1176AC9900D72061 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				B272832811779009003052E0 /* Default.png */,
 				B218364C1176AC9900D72061 /* AppDelegate_Phone.h */,
 				B218364D1176AC9900D72061 /* AppDelegate_Phone.m */,
 				B218364F1176AC9900D72061 /* TestViewController_Phone.h */,
 				B21836501176AC9900D72061 /* TestViewController_Phone.m */,
 				B218364E1176AC9900D72061 /* MainWindow_Phone.xib */,
+				B272832811779009003052E0 /* Default.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 				B218365F1176AC9900D72061 /* MainWindow_Phone.xib in Resources */,
 				B272832711779005003052E0 /* Icon.png in Resources */,
 				B272832911779009003052E0 /* Default.png in Resources */,
+				B27283621177C36D003052E0 /* Default-Landscape.png in Resources */,
+				B27283631177C36D003052E0 /* Default-Portrait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
