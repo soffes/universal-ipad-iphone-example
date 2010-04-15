@@ -20,6 +20,8 @@
 		B21836621176AC9900D72061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836541176AC9900D72061 /* main.m */; };
 		B21836631176AC9900D72061 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836561176AC9900D72061 /* ModalViewController.m */; };
 		B21836641176AC9900D72061 /* TestViewController_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836581176AC9900D72061 /* TestViewController_Shared.m */; };
+		B272832711779005003052E0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B272832611779005003052E0 /* Icon.png */; };
+		B272832911779009003052E0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B272832811779009003052E0 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		B21836581176AC9900D72061 /* TestViewController_Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_Shared.m; sourceTree = "<group>"; };
 		B21836591176AC9900D72061 /* Universal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Universal-Info.plist"; sourceTree = "<group>"; };
 		B218365A1176AC9900D72061 /* Universal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universal_Prefix.pch; sourceTree = "<group>"; };
+		B272832611779005003052E0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B272832811779009003052E0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		B218364B1176AC9900D72061 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				B272832811779009003052E0 /* Default.png */,
 				B218364C1176AC9900D72061 /* AppDelegate_Phone.h */,
 				B218364D1176AC9900D72061 /* AppDelegate_Phone.m */,
 				B218364F1176AC9900D72061 /* TestViewController_Phone.h */,
@@ -119,6 +124,7 @@
 		B21836511176AC9900D72061 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B272832611779005003052E0 /* Icon.png */,
 				B21836521176AC9900D72061 /* AppDelegate_Shared.h */,
 				B21836531176AC9900D72061 /* AppDelegate_Shared.m */,
 				B21836571176AC9900D72061 /* TestViewController_Shared.h */,
@@ -176,6 +182,8 @@
 			files = (
 				B218365C1176AC9900D72061 /* MainWindow_Pad.xib in Resources */,
 				B218365F1176AC9900D72061 /* MainWindow_Phone.xib in Resources */,
+				B272832711779005003052E0 /* Icon.png in Resources */,
+				B272832911779009003052E0 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
