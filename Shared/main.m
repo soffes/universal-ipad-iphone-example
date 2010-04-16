@@ -7,8 +7,9 @@
 //
 
 int main(int argc, char *argv[]) {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
-    return retVal;
+	NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+	NSString *appDelegateClassName = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? @"AppDelegate_Pad" : @"AppDelegate_Phone";
+	int retVal = UIApplicationMain(argc, argv, nil, appDelegateClassName);
+	[pool release];
+	return retVal;
 }

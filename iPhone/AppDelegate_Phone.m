@@ -15,14 +15,15 @@
 #pragma mark UIApplicationDelegate
 #pragma mark -
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	[super applicationDidFinishLaunching:application];
+	
 	TestViewController_Phone *viewController = [[TestViewController_Phone alloc] init];
 	navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
 	[viewController release];
 	
 	[window addSubview:navigationController.view];
 	[window makeKeyAndVisible];
-	return YES;
 }
 
 @end

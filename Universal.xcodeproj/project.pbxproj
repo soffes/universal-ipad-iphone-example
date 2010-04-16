@@ -11,10 +11,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		B218365B1176AC9900D72061 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836471176AC9900D72061 /* AppDelegate_Pad.m */; };
-		B218365C1176AC9900D72061 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B21836481176AC9900D72061 /* MainWindow_Pad.xib */; };
 		B218365D1176AC9900D72061 /* TestViewController_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = B218364A1176AC9900D72061 /* TestViewController_Pad.m */; };
 		B218365E1176AC9900D72061 /* AppDelegate_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = B218364D1176AC9900D72061 /* AppDelegate_Phone.m */; };
-		B218365F1176AC9900D72061 /* MainWindow_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B218364E1176AC9900D72061 /* MainWindow_Phone.xib */; };
 		B21836601176AC9900D72061 /* TestViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836501176AC9900D72061 /* TestViewController_Phone.m */; };
 		B21836611176AC9900D72061 /* AppDelegate_Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836531176AC9900D72061 /* AppDelegate_Shared.m */; };
 		B21836621176AC9900D72061 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B21836541176AC9900D72061 /* main.m */; };
@@ -33,12 +31,10 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B21836461176AC9900D72061 /* AppDelegate_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Pad.h; sourceTree = "<group>"; };
 		B21836471176AC9900D72061 /* AppDelegate_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Pad.m; sourceTree = "<group>"; };
-		B21836481176AC9900D72061 /* MainWindow_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Pad.xib; sourceTree = "<group>"; };
 		B21836491176AC9900D72061 /* TestViewController_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_Pad.h; sourceTree = "<group>"; };
 		B218364A1176AC9900D72061 /* TestViewController_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_Pad.m; sourceTree = "<group>"; };
 		B218364C1176AC9900D72061 /* AppDelegate_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Phone.h; sourceTree = "<group>"; };
 		B218364D1176AC9900D72061 /* AppDelegate_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_Phone.m; sourceTree = "<group>"; };
-		B218364E1176AC9900D72061 /* MainWindow_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_Phone.xib; sourceTree = "<group>"; };
 		B218364F1176AC9900D72061 /* TestViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController_Phone.h; sourceTree = "<group>"; };
 		B21836501176AC9900D72061 /* TestViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController_Phone.m; sourceTree = "<group>"; };
 		B21836521176AC9900D72061 /* AppDelegate_Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Shared.h; sourceTree = "<group>"; };
@@ -107,7 +103,6 @@
 				B21836471176AC9900D72061 /* AppDelegate_Pad.m */,
 				B21836491176AC9900D72061 /* TestViewController_Pad.h */,
 				B218364A1176AC9900D72061 /* TestViewController_Pad.m */,
-				B21836481176AC9900D72061 /* MainWindow_Pad.xib */,
 				B27283601177C36D003052E0 /* Default-Landscape.png */,
 				B27283611177C36D003052E0 /* Default-Portrait.png */,
 			);
@@ -121,7 +116,6 @@
 				B218364D1176AC9900D72061 /* AppDelegate_Phone.m */,
 				B218364F1176AC9900D72061 /* TestViewController_Phone.h */,
 				B21836501176AC9900D72061 /* TestViewController_Phone.m */,
-				B218364E1176AC9900D72061 /* MainWindow_Phone.xib */,
 				B272832811779009003052E0 /* Default.png */,
 			);
 			path = iPhone;
@@ -186,8 +180,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B218365C1176AC9900D72061 /* MainWindow_Pad.xib in Resources */,
-				B218365F1176AC9900D72061 /* MainWindow_Phone.xib in Resources */,
 				B272832711779005003052E0 /* Icon.png in Resources */,
 				B272832911779009003052E0 /* Default.png in Resources */,
 				B27283621177C36D003052E0 /* Default-Landscape.png in Resources */,

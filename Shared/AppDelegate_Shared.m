@@ -22,4 +22,14 @@
 	[super dealloc];
 }
 
+
+#pragma mark -
+#pragma mark UIApplicationDelegate
+#pragma mark -
+
+- (void)applicationDidFinishLaunching:(UIApplication *)application {
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	window.backgroundColor = [UIColor whiteColor];
+}
+
 @end
